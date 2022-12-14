@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #121212;
+  position: relative;
+}
+
+/* Container1 Styling */
+
+i {
+  color: rgba(255, 255, 255, 0.705);
+  position: absolute;
+  opacity: 0.1;
+  right: -50px;
+  top: 0;
+  cursor: pointer;
+}
+
+i:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.main-container {
+  top: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.container1 {
+  margin-top: 30px;
+  position: relative;
+}
+.main-container .container1,
+.container2 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main-container .container1 #logo {
+  width: 80px;
+  filter: saturate(1.5);
+}
+.main-container .container1 #branding {
+  filter: brightness(100);
+  width: 130px;
+}
+
+/* Container2 Styling */
+.container2 {
+  margin-top: 40px;
+}
+
+.container2 input[type="text"] {
+  text-indent: 40px;
+  width: 65%;
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  color: #afafaf;
+  font-size: medium;
+  background: #42414d
+    url(https://i.postimg.cc/K8RbBc4M/178-1783296-g-transparent-circle-google-logo.png)
+    no-repeat;
+  background-position: 15px 15px;
+  padding: 10px 10px;
+}
+
+/* Container3 Styling */
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.box {
+  width: 120px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  font-size: small;
+  position: relative;
+}
+
+.container3 .box:hover {
+  background-color: #414141;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.container3 .box .boxes {
+  background-color: #42414d;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  box-shadow: 1px 1px 5px #1f1f1f93;
+}
+
+.container3 .box a {
+  text-decoration: none;
+  color: rgb(201, 195, 195);
+  margin-top: 8px;
+}
+
+.container3 .box .boxes img {
+  width: 60%;
+  position: relative;
+  left: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+
+/* CSS End */
